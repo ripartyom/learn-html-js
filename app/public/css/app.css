@@ -1,3 +1,45 @@
-body {
-    background: lightgray;
+
+.header {
+    height: 150px;
+    width: 1350px;
+    display: block;
+    background: url("/images/6-05.png") repeat-x center bottom;
 }
+
+#wrapper {
+    margin: 344 auto 433px; 
+    width: 399px;
+      }
+
+body {
+     background-color: e2e1eb;
+   }
+
+   #footer {
+    background-color: #301fed; 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    height: 70px;
+    padding-left: 29px;
+        color: #f3f2ff; 
+    width: 99%; 
+   }
+
+   .all-symbols {
+   float:left;
+  margin-top:19px;
+  padding-left:199px;
+  }
+
+.symbol {
+  color: #fffcfc;
+  margin-top:6px;
+  margin-left:29px;
+  height:29px;
+}
+
+.symbol:hover {
+    padding:2px;
+    background-color:#fffcfc;
+    }
