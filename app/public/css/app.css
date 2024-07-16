@@ -1,45 +1,100 @@
-
-.header {
-    height: 150px;
-    width: 1350px;
-    display: block;
-    background: url("/images/6-05.png") repeat-x center bottom;
+header {
+  background-color: #007765;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-#wrapper {
-    margin: 344 auto 433px; 
-    width: 399px;
-      }
-
-body {
-     background-color: e2e1eb;
-   }
-
-   #footer {
-    background-color: #301fed; 
-    position: fixed; 
-    left: 0; 
-    bottom: 0; 
-    height: 70px;
-    padding-left: 29px;
-        color: #f3f2ff; 
-    width: 99%; 
-   }
-
-   .all-symbols {
-   float:left;
-  margin-top:19px;
-  padding-left:199px;
-  }
-
-.symbol {
-  color: #fffcfc;
-  margin-top:6px;
-  margin-left:29px;
-  height:29px;
+.header-logo {
+  margin: 20px auto 19px 55px;
 }
 
-.symbol:hover {
-    padding:2px;
-    background-color:#fffcfc;
-    }
+.header-right {
+  display: flex;
+  gap: 15px;
+  margin: auto 54px auto auto;
+}
+
+.header-right button {
+  margin: auto;
+}
+.header-right .separator {
+  border-right: 3px solid #ffffff;
+  margin: auto;
+  height: 35px;
+}
+
+.img {
+  background-image: url(/images/image.png);
+  height: 400px;
+  width:100%;
+  display: flex; 
+}
+
+.img .image {
+  color: white;
+  margin: auto;
+  font-size: 72px;
+}
+
+.img2 {
+  background-image: url(/images/imagine2.png);
+  height: 400px;
+  width: 100%;
+  display: flex;
+}
+
+.img2 span {
+  color: white;
+  margin: 128px 163px 127px 163px;
+  font-size: 48px;
+  text-align: center;
+}
+
+.text2 {
+  margin: 48px 55px 92px 55px;
+}
+
+.text2 h2 {
+  color: #007765;
+  font-size: 64px;
+  text-align: center;
+  margin: 0px;
+}
+
+.text2 p {
+  font-size: 32px;
+}
+
+.text-img {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.test-img p {
+  font-size: 32px;
+}
+
+.the-team {
+  background-color: gray;
+}
+.the-team .profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.the-team h2 {
+  color: #007765;
+  font-size: 64px;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 48px 340px 64px 340px;
+}
