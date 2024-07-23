@@ -1,100 +1,102 @@
-header {
-  background-color: #007765;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+h1 {
+  color: red;
+  font-size: 4em;
+  margin: 0;
+  border-bottom: 2px dashed black;
 }
 
-.header-logo {
-  margin: 20px auto 19px 55px;
+p {
+  color: #003366;
+  font-size: .9em;
+  line-height: 150%;
+  margin-top: 0;
+  margin-left: 25px;
 }
 
-.header-right {
-  display: flex;
-  gap: 15px;
-  margin: auto 54px auto auto;
-}
+  h2 {
+    color: #000000;
+    margin-bottom: 0;
+    padding: 5px 0px 3px 25px;
+    overflow: hidden;
+  }
 
-.header-right button {
-  margin: auto;
-}
-.header-right .separator {
-  border-right: 3px solid #ffffff;
-  margin: auto;
-  height: 35px;
-}
+  p.tip:before {
+    content: "ПОДСКАЗКА!  ";
+  }
 
-.img {
-  background-image: url(/images/image.png);
-  height: 400px;
-  width:100%;
-  display: flex; 
-}
+  li:first-child {
+    font-weight: bold;
+  }
 
-.img .image {
-  color: white;
-  margin: auto;
-  font-size: 72px;
-}
+  .note {
+    font-size: .85em;
+    color: #294e56;
+    margin: 0 300px;
+    padding: 10px;
+    border: 1px solid #73afb7;
+    background-color: #fbef99;
+  }
 
-.img2 {
-  background-image: url(/images/imagine2.png);
-  height: 400px;
-  width: 100%;
-  display: flex;
-}
+  #wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-left: 1px solid #666666;
+    border-right: 1px solid #666666;
+  }
 
-.img2 span {
-  color: white;
-  margin: 128px 163px 127px 163px;
-  font-size: 48px;
-  text-align: center;
-}
+  body {
+    color: #102536;
+    font-size: 62,5%;
+    background-color: #f8faf1;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-.text2 {
-  margin: 48px 55px 92px 55px;
-}
+  .sidebar {
+    width: 100px;
+    float: right;
+    margin: 10px;
+    border: solid 1px #fdd041;
+    border-top-width: 5px;
+    padding: 10px;
+    background-color: #fbef99;
+  }
 
-.text2 h2 {
-  color: #007765;
-  font-size: 64px;
-  text-align: center;
-  margin: 0px;
-}
+  .figure {
+    float: right;
+    border: 1px solid #666;
+    padding: 10px;
+  }
 
-.text2 p {
-  font-size: 32px;
-}
+  ul .nav li {
+    display: inline;
+    border: 1px dashed #000;
+    border-bottom: none;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+    background-color: #EAEAEA;
+    text-decoration: none;
+    color: #333;
+  }
 
-.text-img {
-  display: flex;
-  align-items: center;
-  gap: 45px;
-}
+  .label {
+    float: left;
+    width: 20em;
+    text-align: right;
+    clear: left;
+    margin-right: 15px;
+  }
 
-.test-img p {
-  font-size: 32px;
-}
-
-.the-team {
-  background-color: gray;
-}
-.the-team .profiles {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.the-team h2 {
-  color: #007765;
-  font-size: 64px;
-  text-align: center;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  padding: 48px 340px 64px 340px;
-}
+  .sidebar-2 {
+    display: grid;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    border: solid 1px #fdd041;
+    border-top-width: 5px;
+    padding: 10px;
+    background-color: #fbef99;
+  }
